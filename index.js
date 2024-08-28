@@ -23,8 +23,7 @@ app.get("/",(req,res)=>{
 //   let place = req.params.place;
 
 //   fetch(
-//     `https://api.mapbox.com/geocoding/v5/mapbox.places/${place}.json?access_token=pk.eyJ1IjoiYWRpdHlhbmFsbGEwNyIsImEiOiJjbGlldGQ4ZmYwOHUyM2R0NGIzOXo2eGN3In0.tA-3eTjgg3kk2jIza4W_-A`
-//   ).then((response) => {
+//     `https://api.mapbox.com/geocoding/v5/mapbox.places/${place}.json?your_accesstoken).then((response) => {
 //     console.log(response);
 //     response.json().then((data) => {
 //       console.log(data);
@@ -48,7 +47,7 @@ app.get("/",(req,res)=>{
 //   // });
 //   let lat=req.params.lat;
 //   let long=req.params.long;
-//   let weatherKey = "1d099cc58c98c626e6c2d0c6679f0a3f";
+//   let weatherKey = "type your passcode";
 //   let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${weatherKey}`;
 
 //   fetch(url).then((re) => {
