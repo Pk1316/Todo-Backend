@@ -7,7 +7,7 @@ router.get("/:place", (req, res) => {
     let place = req.params.place;
   
     fetch(
-      `https://api.mapbox.com/geocoding/v5/mapbox.places/${place}.json?access_token=pk.eyJ1IjoiYWRpdHlhbmFsbGEwNyIsImEiOiJjbGlldGQ4ZmYwOHUyM2R0NGIzOXo2eGN3In0.tA-3eTjgg3kk2jIza4W_-A`
+      `https://api.mapbox.com/geocoding/v5/mapbox.places/${place}.json?//your_access_token
     ).then((response) => {
       console.log(response);
       response.json().then((data) => {
