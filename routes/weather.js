@@ -8,7 +8,7 @@ router.get("/:lat/:long", (req, res) => {
     // });
     let lat=req.params.lat;
     let long=req.params.long;
-    let weatherKey = "1d099cc58c98c626e6c2d0c6679f0a3f";
+    let weatherKey = "your passcode";
     let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${weatherKey}`;
   
     fetch(url).then((re) => {
